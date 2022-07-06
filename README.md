@@ -9,15 +9,15 @@ Yuanjinkelian is a fast and scalable blockchain kernel for enterprises. Yuanjink
 
 - **Customizable and Pluggable Components**: Yuanjinkelian's microservices are loosely coupled and their communications are only via the message queue. Hence, it‘s flexible to improve current components with better algorithms (such as new consensus algorithms) or more appropriate technical solutions (such as new DBs or new privacy solutions). Moreover, business logic is extremely complicated in enterprise applications. With Yuanjinkelian, you can easily customize your blockchain with the certain feature to fit your own business requirements.
 
-- **High Performance**: In Yuankelian, consensus and transaction execution are decoupled as separate microservices. The consensus service is only responsible for transaction ordering, which can finish independently before transaction execution, thus increase transaction processing performance. In additional, Yuanjinkelian also includes lots of other optimizations to fully utilize multi-cores and multi-servers' computing power. To this end, it utilizes the Rust language, a hybrid imperative/OO/functional language with an emphasis on efficiency.
+- **High Performance**: In Yuanjinkelian, consensus and transaction execution are decoupled as separate microservices. The consensus service is only responsible for transaction ordering, which can finish independently before transaction execution, thus increase transaction processing performance. In additional, Yuanjinkelian also includes lots of other optimizations to fully utilize multi-cores and multi-servers' computing power. To this end, it utilizes the Rust language, a hybrid imperative/OO/functional language with an emphasis on efficiency.
 
 - **Resiliency and Reliability**: Yuanjinkelian provides tools to backup blockchain data by taking snapshot, which can help you to resync the blockchain data in a short time. And through Rust’s language-level memory and thread guarantees and a disciplined approach to exception-handling, we can state with a high degree of certainty that our code cannot crash, hang or bomb-out unexpectedly.
 
 - **Compatibility**: Yuanjinkelian supports the use of Solidity, Go, and Rust to develop smart contracts. It also supports all Ethereum development tools (Truffle, Zeppelin, Remix, etc.).
 
-- **Chain Interoperability**: We perceive that independent blockchains are constantly emerging nowadays and even more in the future. How do these chains interoperate with each other to form blockchain network? Yuanjinkelian Support cross-chain communication by providing a simple cross-chain protocol currently. More explorations are undertaking in Yuankelian, aiming to amplify the value of applications running on the various chains.
+- **Chain Interoperability**: We perceive that independent blockchains are constantly emerging nowadays and even more in the future. How do these chains interoperate with each other to form blockchain network? Yuanjinkelian Support cross-chain communication by providing a simple cross-chain protocol currently. More explorations are undertaking in Yuanjinkelian, aiming to amplify the value of applications running on the various chains.
 
-- **Engineering Experience**: There're many Yuanjinkelian networks running in banks, payment and insurance production environment, with Rivtower or Yuanjinkelian Integration Provider's technical support.  Yuankelian has accumulated a lot of engineering experience.
+- **Engineering Experience**: There're many Yuanjinkelian networks running in banks, payment and insurance production environment, with Rivtower or Yuanjinkelian Integration Provider's technical support.  Yuanjinkelian has accumulated a lot of engineering experience.
 
 ## Contact us
 
